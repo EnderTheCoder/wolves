@@ -55,50 +55,50 @@ class Timber {
             else break;
             i++
         }
-        // console.log(this.wood)
-        // this.wood = this.bot.findBlock({
-        //     matching: mcData.blocks.
-        //     maxDistance: 32
-        // })
+        /*
+        console.log(this.wood)
+        this.wood = this.bot.findBlock({
+            matching: mcData.blocks.
+            maxDistance: 32
+        })
 
-        //
-        // if (!this.wood) {
-        //     this.wood = this.bot.findBlock({
-        //         matching: mcData.blocksByName.oak_log.id,
-        //         maxDistance: 32
-        //     })
-        // }
-        // if (!this.wood) {
-        //     this.wood = this.bot.findBlock({
-        //         matching: mcData.blocksByName.spruce_log.id,
-        //         maxDistance: 32
-        //     })
-        // }
-        // if (!this.wood) {
-        //     this.wood = this.bot.findBlock({
-        //         matching: mcData.blocksByName.birch_log.id,
-        //         maxDistance: 32
-        //     })
-        // }
-        // if (!this.wood) {
-        //     this.wood = this.bot.findBlock({
-        //         matching: mcData.blocksByName.jungle_log.id,
-        //         maxDistance: 32
-        //     })
-        // }
-        // if (!this.wood) {
-        //     this.wood = this.bot.findBlock({
-        //         matching: mcData.blocksByName.acacia_log.id,
-        //         maxDistance: 32
-        //     })
-        // }
-        // if (!this.wood) {
-        //     this.wood = this.bot.findBlock({
-        //         matching: mcData.blocksByName.dark_oak_log.id,
-        //         maxDistance: 32
-        //     })
-        // }
-
+        if (!this.wood) {
+            this.wood = this.bot.findBlock({
+                matching: mcData.blocksByName.oak_log.id,
+                maxDistance: 32
+            })
+        }
+        if (!this.wood) {
+            this.wood = this.bot.findBlock({
+                matching: mcData.blocksByName.spruce_log.id,
+                maxDistance: 32
+            })
+        }
+        if (!this.wood) {
+            this.wood = this.bot.findBlock({
+                matching: mcData.blocksByName.birch_log.id,
+                maxDistance: 32
+            })
+        }
+        if (!this.wood) {
+            this.wood = this.bot.findBlock({
+                matching: mcData.blocksByName.jungle_log.id,
+                maxDistance: 32
+            })
+        }
+        if (!this.wood) {
+            this.wood = this.bot.findBlock({
+                matching: mcData.blocksByName.acacia_log.id,
+                maxDistance: 32
+            })
+        }
+        if (!this.wood) {
+            this.wood = this.bot.findBlock({
+                matching: mcData.blocksByName.dark_oak_log.id,
+                maxDistance: 32
+            })
+        }
+        */
 
         if (!this.wood) {
             this.abort()
